@@ -105,24 +105,24 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 bg-slate-100 dark:bg-slate-800/50">
+      <section className="py-12 bg-black dark:bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 dark:text-white">50+</div>
-              <div className="text-slate-600 dark:text-slate-400">{t("stats.courses")}</div>
+              <div className="text-3xl font-bold text-white">50+</div>
+              <div className="text-slate-300">{t("stats.courses")}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 dark:text-white">200+</div>
-              <div className="text-slate-600 dark:text-slate-400">{t("stats.videos")}</div>
+              <div className="text-3xl font-bold text-white">200+</div>
+              <div className="text-slate-300">{t("stats.videos")}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 dark:text-white">500+</div>
-              <div className="text-slate-600 dark:text-slate-400">{t("stats.articles")}</div>
+              <div className="text-3xl font-bold text-white">500+</div>
+              <div className="text-slate-300">{t("stats.articles")}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 dark:text-white">100K+</div>
-              <div className="text-slate-600 dark:text-slate-400">{t("stats.learners")}</div>
+              <div className="text-3xl font-bold text-white">100K+</div>
+              <div className="text-slate-300">{t("stats.learners")}</div>
             </div>
           </div>
         </div>
