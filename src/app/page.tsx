@@ -109,19 +109,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold dark:text-purple-400" style={{ color: '#A346BD' }}>50+</div>
+              <div className="text-3xl font-bold text-slate-900 dark:text-white">50+</div>
               <div className="text-slate-600 dark:text-slate-400">{t("stats.courses")}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">200+</div>
+              <div className="text-3xl font-bold text-slate-900 dark:text-white">200+</div>
               <div className="text-slate-600 dark:text-slate-400">{t("stats.videos")}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-600 dark:text-green-400">500+</div>
+              <div className="text-3xl font-bold text-slate-900 dark:text-white">500+</div>
               <div className="text-slate-600 dark:text-slate-400">{t("stats.articles")}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-orange-600 dark:text-orange-400">100K+</div>
+              <div className="text-3xl font-bold text-slate-900 dark:text-white">100K+</div>
               <div className="text-slate-600 dark:text-slate-400">{t("stats.learners")}</div>
             </div>
           </div>
